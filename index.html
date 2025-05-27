@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Women Safety</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #fff0f6;
+      color: #4a148c;
+      line-height: 1.6;
+    }
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px 0;
+    }
+    header {
+      background: #c2185b;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: #a3154d;
+    }
+    section {
+      margin-bottom: 50px;
+      padding: 20px 0;
+    }
+    h2 {
+      color: #c2185b;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+      font-size: 17px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    button {
+      background: #c2185b;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #a3154d;
+      transform: scale(1.05);
+    }
+    footer {
+      background: #c2185b;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+    .section img {
+      display: block;
+      max-width: 100%;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 100;
+      padding-top: 60px;
+      left: 0; top: 0;
+      width: 100%; height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.7);
+    }
+    .modal-content {
+      background-color: #fff;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 700px;
+      position: relative;
+    }
+    .close {
+      color: #c2185b;
+      position: absolute;
+      top: 10px; right: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .video-frame {
+      width: 100%;
+      height: 400px;
+    }
+    @media (max-width: 600px) {
+      .video-frame {
+        height: 200px;
+      }
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>ShaktiRoer</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tips">Safety Tips</a></li>
+        <li><a href="#selfdefense">Self-Defense</a></li>
+        <li><a href="#workshops">Workshops</a></li>
+        <li><a href="#rights">Rights & Laws</a></li>
+        <li><a href="#travel">Safe Travel</a></li>
+        <li><a href="#location">Safe Location</a></li>
+        <li><a href="#roadpath">Safe Road Path</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Home Section -->
+<section id="home" class="section">
+  <div class="container">
+    <h2>Welcome to Women Safety Portal</h2>
+    <video width="100%" height="400" autoplay muted loop playsinline style="border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+      <source src="/women safety.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>This portal is dedicated to empowering women with knowledge, resources, and tools to stay safe and confident in their everyday lives.</p>
+  </div>
+</section>
+<!-- Emergency Numbers Section -->
+<section id="emergency" class="section">
+  <div class="container">
+    <h2>Emergency Contacts</h2>
+    <img src="/emergency number.jpg" alt="Emergency number" style="max-width: 400px; display: block; margin: 0 auto 20px; border-radius: 10px;">
+
+    <p>Save these numbers in your phone and share with friends and family. In any emergency, don’t hesitate to reach out immediately.</p>
+  </div>
+</section>
+
+<!-- Safety Tips -->
+<section id="tips" class="section">
+  <div class="container">
+    <h2>General Safety Tips</h2>
+    <img src="/safety Tips.jpg" alt="Safety Tips">
+    <ul>
+      <li>Stay aware of your surroundings at all times.</li>
+      <li>Trust your instincts; if something feels wrong, leave immediately.</li>
+      <li>Keep your phone charged and with you.</li>
+      <li>Inform a trusted person about your whereabouts.</li>
+    </ul>
+    <button class="infoBtn">Get More Information</button>
+  </div>
+</section>
+
+<!-- Self-Defense -->
+<section id="selfdefense" class="section">
+  <div class="container">
+    <h2>Self-Defense Tips</h2>
+    <img src="/self defence.jpg" alt="Self Defense Practice">
+    <ul>
+      <li>Use elbows and knees—they are powerful and effective.</li>
+      <li>Aim for vulnerable areas: eyes, nose, throat, and groin.</li>
+      <li>Practice yelling loudly to attract attention.</li>
+      <li>Enroll in local self-defense classes for hands-on training.</li>
+    </ul>
+    <button class="infoBtn">Get More Information</button>
+  </div>
+</section>
+
+<!-- Violence Section -->
+<section id="violence" class="section">
+  <div class="container">
+    <h2>Violence Against Women</h2>
+    <video width="100%" height="400" controls>
+      <source src="/Stop Violence Against Women.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>Violence against women can take many forms, and it is important to recognize and address it. Awareness and support can help prevent and reduce such incidents.</p>
+    <p>If you or someone you know is experiencing violence, reach out for help. You're not alone.</p>
+    <button class="infoBtn">Get Help Resources</button>
+    <img src="/images/violence-awareness.jpg" alt="Stop Violence Against Women">
+  </div>
+</section>
+
+<!-- Safe Travel Tips -->
+<section id="travel" class="section">
+  <div class="container">
+    <h2>Safe Travel Tips</h2>
+    <img src="/safe travels.jpg"alt="Safe Travel">
+    <ul>
+      <li>Use trusted transportation apps and services.</li>
+      <li>Avoid isolated or poorly lit areas, especially at night.</li>
+      <li>Share your live location with a trusted contact.</li>
+      <li>Carry personal safety items like pepper spray or alarms.</li>
+    </ul>
+    <button class="infoBtn">Get More Travel Tips</button>
+  </div>
+</section>
+
+<!-- Safe Location Section -->
+<section id="location" class="section">
+  <div class="container">
+    <h2>Find Your Safe Location</h2>
+    <img src="/safe location.jpg"alt="Safe location">
+    <p>Click the button to get your current location and display it on the map:</p>
+    <button onclick="getLocation()">Show My Location</button>
+    <div id="map" style="height: 400px; width: 100%; margin-top: 20px;"></div>
+  </div>
+</section>
+
+<!-- Safe Road Path Section -->
+<section id="roadpath" class="section">
+  <div class="container">
+    <h2>Safe Road Path</h2>    <img src="/safe road path.jpg"alt="Safe path">
+    <p>Enter your destination to see the safest road path:</p>
+    <input type="text" id="destination" placeholder="Enter destination address" style="padding: 10px; width: 70%;">
+    <button onclick="calculateRoute()">Get Path</button>
+    <div id="routeMap" style="height: 400px; width: 100%; margin-top: 20px;"></div>
+  </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact" class="section">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Email:shaktiRoer@womensafety.org</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>© 2025 Women Safety Portal</p>
+  </div>
+</footer>
+
+<!-- Modal Popup -->
+<div id="infoModal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="modalClose">&times;</span>
+    <h3>More Information</h3>
+    <p>This video demonstrates techniques, tips, and awareness strategies every woman should know.</p>
+    <iframe class="video-frame" src="/The human body’s pain points #shorts #fight #fighting #kravmaga.mp4" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script>
+  // Modal popup logic
+  const infoBtns = document.querySelectorAll('.infoBtn');
+  const modal = document.getElementById('infoModal');
+  const closeBtn = document.getElementById('modalClose');
+
+  infoBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      modal.style.display = 'block';
+    });
+  });
+
+  closeBtn.onclick = () => modal.style.display = 'none';
+  window.onclick = (e) => {
+    if (e.target === modal) modal.style.display = 'none';
+  };
+
+  // Google Maps functions for Safe Location and Safe Road Path
+  let map, routeMap, directionsService, directionsRenderer;
+
+  function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(position => {
+        const coords = {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        };
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: coords,
+          zoom: 15
+        });
+        new google.maps.Marker({
+          position: coords,
+          map: map,
+          title: "You are here"
+        });
+      }, () => alert("Location access denied."));
+    } else {
+      alert("Geolocation is not supported by this browser.");
+    }
+  }
+
+  function calculateRoute() {
+    const destination = document.getElementById("destination").value.trim();
+    if (!navigator.geolocation) {
+      alert("Geolocation is not supported by your browser.");
+      return;
+    }
+    if (!destination) {
+      alert("Please enter a destination address.");
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(position => {
+      const origin = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+
+      directionsService = new google.maps.DirectionsService();
+      directionsRenderer = new google.maps.DirectionsRenderer();
+      routeMap = new google.maps.Map(document.getElementById("routeMap"), {
+        zoom: 14,
+        center: origin
+      });
+      directionsRenderer.setMap(routeMap);
+
+      const request = {
+        origin: origin,
+        destination: destination,
+        travelMode: 'WALKING'
+      };
+
+      directionsService.route(request, function (result, status) {
+        if (status === 'OK') {
+          directionsRenderer.setDirections(result);
+        } else {
+          alert("Could not display route. Please check the destination address.");
+        }
+      });
+    }, () => alert("Location access denied."));
+  }
+</script>
+
+<!-- Google Maps JavaScript API -->
+<!-- IMPORTANT: Replace YOUR_API_KEY below with your actual Google Maps API key -->
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+
+</body>
+</html>
